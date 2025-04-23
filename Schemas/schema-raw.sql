@@ -2,6 +2,15 @@
 -- Creating a table
 ----------------------------------------------------------------------------------------------------------------------
 
+CREATE TABLE customers (
+  customer_id INT,
+  first_name  VARCHAR,
+  last_name   VARCHAR,
+  country     VARCHAR,
+  score       INT,
+  PRIMARY KEY (customer_id ));
+
+
 CREATE TABLE db_sql_tutorial.customers (
   customer_id INT(10) NOT NULL AUTO_INCREMENT,
   first_name  VARCHAR(50) NOT NULL,
